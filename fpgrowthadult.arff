@@ -1,0 +1,117 @@
+
+@relation adult_income_fpgrowth
+
+@attribute age_young {no,yes}
+@attribute age_middle_aged {no,yes}
+@attribute age_senior {no,yes}
+@attribute workclass_private {no,yes}
+@attribute workclass_government {no,yes}
+@attribute workclass_self_employed {no,yes}
+@attribute education_hs_grad {no,yes}
+@attribute education_bachelors {no,yes}
+@attribute education_masters {no,yes}
+@attribute marital_never_married {no,yes}
+@attribute marital_married {no,yes}
+@attribute marital_divorced {no,yes}
+@attribute occupation_admin {no,yes}
+@attribute occupation_professional {no,yes}
+@attribute occupation_sales {no,yes}
+@attribute hours_part_time {no,yes}
+@attribute hours_full_time {no,yes}
+@attribute hours_overtime {no,yes}
+@attribute capital_gain_high {no,yes}
+@attribute capital_gain_none {no,yes}
+@attribute income_le_50k {no,yes}
+@attribute income_gt_50k {no,yes}
+
+@data
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,no,yes,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+yes,no,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,yes,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,no,yes,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+yes,no,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,yes,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,no,yes,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+yes,no,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,yes,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,no,yes,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+yes,no,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,yes,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,no,yes,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+yes,no,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,yes,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,no,yes,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+yes,no,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,yes,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,no,yes,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+yes,no,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,yes,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,no,yes,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+yes,no,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,yes,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,no,yes,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+yes,no,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,no,yes,yes,no,no,yes
+no,yes,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,yes,no,no,yes,no,no,yes,no,no,yes,no,no,no,yes,no,no,yes,yes,no
+yes,no,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,yes,no,no,yes,no,yes,no,no,no,yes,no,yes,no,no,no,yes,no,no,yes,yes,no
+no,no,yes,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
+yes,no,no,no,no,yes,no,no,yes,no,no,yes,no,no,yes,yes,no,no,no,yes,yes,no
